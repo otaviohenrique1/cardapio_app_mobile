@@ -15,7 +15,7 @@ export const FORMATO_DATA_COM_HORA_2 = 'dd/MM/yyyy HH:mm';
 export const FORMATO_DATA_COM_HORA_3 = 'yyyy-MM-dd HH:mm:ss';
 export const FORMATO_DATA_COM_HORA_4 = 'dd/MM/yyyy HH:mm:ss';
 
-export const valoresIniciaisRefeicao: RefeicaoTypes = {
+export const valoresIniciaisRefeicao = {
   nome: '',
   preco: 0,
   descricao: "",
@@ -29,7 +29,7 @@ export const valoresIniciaisLogin: LoginTypes = {
   senha: ''
 };
 
-export const valoresIniciaisCliente: ClienteTypes = {
+export const valoresIniciaisCliente = {
   email: '', senha: '', nome: '', rua: '', numero: '',
   bairro: '', cidade: '', estado: '', cep: '', telefone: '',
   confirmacao_senha: "", id: "", data_cadastro: "", data_modificacao_cadastro: "",
